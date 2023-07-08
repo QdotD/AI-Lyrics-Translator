@@ -19,7 +19,7 @@
 
   const logout = () => {
     isAuthenticated = false;
-    window.location.href = process.env.HOME_PAGE; // Redirect to home page
+    window.location.href = '/'; // Redirect to home page
   };
 
   const fetchCurrentlyPlaying = async (accessToken) => {
