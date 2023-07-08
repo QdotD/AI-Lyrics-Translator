@@ -2,7 +2,7 @@
 
 # AI Lyrics Translator
 
-AI Lyrics Translator is a web application that uses artificial intelligence to translate song lyrics from Spotify in real time. This project is built using Svelte and Vite.
+AI Lyrics Translator is a web application that uses artificial intelligence to translate song lyrics from Spotify in real-time. This project is built using Svelte and Vite.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ AI Lyrics Translator is a web application that uses artificial intelligence to t
 - To run the application in development mode: `npm run dev`
 - To build the application for production: `npm run build`
 - To preview the production build: `npm run preview`
-- Login to your Spotify account to see and control your music in realtime
+- Login to your Spotify account to see and control your music in real=time
 
 ## Built With
 
