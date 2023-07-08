@@ -1,3 +1,5 @@
+# ***PROJECT STILL WIP - JULY 7, 2023***
+
 # AI Lyrics Translator
 
 AI Lyrics Translator is a web application that uses artificial intelligence to translate song lyrics from Spotify in real time. This project is built using Svelte and Vite.
