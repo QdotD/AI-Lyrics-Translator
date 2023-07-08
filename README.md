@@ -1,4 +1,5 @@
-# ***PROJECT STILL WIP - JULY 7, 2023***
+# ****PROJECT STILL WIP - JULY 7, 2023***
+[Hosted Dev Site](https://translated-lyrics.vercel.app/)
 
 # AI Lyrics Translator
 
