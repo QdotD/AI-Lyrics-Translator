@@ -11,7 +11,7 @@
     "user-read-currently-playing user-modify-playback-state"
   ); // add additional scopes as needed
 
-  const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${clientId}&scope=${scope}&redirect_uri=${redirectUri}`;
+  const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${clientId}&scope=${scope}&redirect_uri=${redirectUri}&show_dialog=true`;
 
   const authenticate = () => {
     window.location.href = authUrl;
