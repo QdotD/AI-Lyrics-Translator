@@ -19,7 +19,7 @@ AI Lyrics Translator is a web application that uses artificial intelligence to t
 - To run the application in development mode: `npm run dev`
 - To build the application for production: `npm run build`
 - To preview the production build: `npm run preview`
-- Login to your Spotify account to see and control your music in real=time
+- Login to your Spotify account to see and control your music in real-time
 
 ## Built With
 
@@ -37,5 +37,3 @@ AI Lyrics Translator is a web application that uses artificial intelligence to t
 ## License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
-
-Project Link: [https://github.com/QdotD/AI-Lyrics-Translator](https://github.com/QdotD/AI-Lyrics-Translator)
