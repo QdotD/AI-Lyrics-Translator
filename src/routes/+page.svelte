@@ -79,6 +79,7 @@
           Authorization: `Bearer ${accessToken}`,
         },
       });
+      setTimeout(() => fetchCurrentlyPlaying(accessToken), 1000); // Wait 1 second before fetching the currently playing song
     } catch (error) {
       console.error("Error pausing track: ", error);
     }
@@ -92,6 +93,7 @@
           Authorization: `Bearer ${accessToken}`,
         },
       });
+      setTimeout(() => fetchCurrentlyPlaying(accessToken), 1000); // Wait 1 second before fetching the currently playing song
     } catch (error) {
       console.error("Error playing track: ", error);
     }

@@ -28,7 +28,7 @@ export default async function callback(req, res) {
       const { access_token } = response.data;
 
       // Redirect the user to the home page with the new access token
-      res.writeHead(302, { Location: `http://localhost:3000/?access_token=${access_token}&refresh_token=${refresh_token}` });
+      res.writeHead(302, { Location: process.env.HOME_PAGE + `/?access_token=${access_token}&refresh_token=${refresh_token}` });
       res.end();
     } catch (error) {
       console.error(error);
@@ -55,7 +55,7 @@ export default async function callback(req, res) {
       const { access_token, refresh_token } = response.data;
 
       // Redirect the user to the home page with access token and refresh token
-      res.writeHead(302, { Location: `http://localhost:3000/?access_token=${access_token}&refresh_token=${refresh_token}` });
+      res.writeHead(302, { Location: process.env.HOME_PAGE + `/?access_token=${access_token}&refresh_token=${refresh_token}` });
       res.end();
     } catch (error) {
       console.error(error);
